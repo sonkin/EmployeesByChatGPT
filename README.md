@@ -12,4 +12,4 @@ It implements these features:
 - Unit test for MVC controller with use of Mockito
 - Cucumber BDD test
 
-See the complete list of requests in ChatGPT.txt
+See the complete list of requests to Chat GPT in a file ChatGPT.txt
