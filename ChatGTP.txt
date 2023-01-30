@@ -1,0 +1,50 @@
+These are the requests to ChatGPT which helped to build this application:
+
+Generate Java REST service with Spring Data for Employee. Employee should have name, department, email, manager (also employee). Use lombok. Implement service level, use MapStruct for conversions.
+
+add PATCH endpoint to EmployeeController
+
+add validation for Employee: name and email shouldn't be empty
+
+what should I change in pom? (Incomplete)
+
+how to generate error response if validation is failed? (Exclude)
+
+how to generate error response if InvalidInputException is thrown? (Exclude)
+
+how to do it with @ControllerAdvice? (Correct now)
+
+generate Open API documentation for the service (Good)
+
+swagger url "http://localhost:8080/swagger-ui.html" doesn't work with this configuration (wrong answer)
+
+	Was need to use Google: “springfox 3 swagger url”
+	Found this thread on GitHub: Springfox swagger-ui.html not loading using version 3.0.0-SNAPSHOT (first result)
+
+	Actual answer was found here:
+	https://github.com/springfox/springfox/issues/3362#issuecomment-953568248
+	To support 3.0, we should add springfox-boot-starter dependency and use another URL:
+	http://localhost:8080/swagger-ui/
+
+	Otherwise we can downgrade to Swagger 2.x.x
+
+Generate unit test for EmployeeController
+
+what import should be used for is() static method?
+
+Header "location" is null in post and patch responses. How to fix it?
+
+Generate cucumber test to check this REST service endpoints (only .feature generated)
+
+Generate Java code with steps implementation. Use OpenFeign. (Steps are incomplete)
+
+continue (not continuing, tells how to use Feign - and do it wrong, but generates correct @FeignClient)
+
+show EmployeeSteps code (again unfinished)
+
+continue (shows complete EmployeeSteps code)
+
+show Gherkin steps (show new updated Gherkin steps - but it’s cutted)
+
+show complete feature file with steps (show updated Gherkin steps - now it is complete)
+

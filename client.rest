@@ -1,0 +1,40 @@
+POST http://localhost:8080/employees
+Content-Type: application/json
+
+{
+  "id": "1",
+  "email": "john@gmail.com",
+  "department": "IT"
+}
+
+###
+
+GET http://localhost:8080/employees
+
+###
+
+PUT http://localhost:8080/employees/2
+Content-Type: application/json
+
+{
+  "name": "Mary",
+  "email": "mary@gmail.com",
+  "department": "HR"
+}
+
+###
+
+PATCH http://localhost:8080/employees/2
+Content-Type: application/json
+
+{
+  "email": "mary@luxoft.com",
+  "manager": {
+    "id": "1"
+  }
+}
+
+###
+
+GET http://localhost:8080/employees
+
