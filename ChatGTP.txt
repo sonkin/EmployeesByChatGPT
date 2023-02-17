@@ -1,3 +1,5 @@
+### LIST OF PROMPTS FOR CHAT GPT ###
+
 These are the requests to ChatGPT which helped to build this application:
 
 Generate Java REST service with Spring Data for Employee. Employee should have name, department, email, manager (also employee). Use lombok. Implement service level, use MapStruct for conversions.
