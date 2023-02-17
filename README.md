@@ -12,4 +12,7 @@ It implements these features:
 - Unit test for MVC controller with use of Mockito
 - Cucumber BDD test
 
-See the complete list of requests to Chat GPT in a file ChatGPT.txt
+See the complete list of requests to Chat GPT in a file *ChatGPT.txt*
+
+File *ChatGPT_log.mht* can be downloaded and opened in browser (HTML single page format). 
+It contains the complete log of ChatGPT dialog.
